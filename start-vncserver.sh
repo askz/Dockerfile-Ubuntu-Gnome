@@ -23,7 +23,7 @@ trap "kill_app" SIGINT SIGTERM
 
 # Launch daemon
 /usr/local/etc/start-vnc-expect-script.sh
-/chvncpasswd.sh "ubuntu"
+/chvncpasswd.sh "acoman"
 $command
 sleep 2
 
